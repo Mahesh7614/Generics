@@ -8,25 +8,9 @@ namespace Generics
 {
     public static class Array
     {
-        public static void ToPrint(int[] inputArray)
+        public static void ToPrint<M>(M[] inputArray)
         {
-            foreach (int Element in inputArray)
-            {
-                Console.WriteLine(Element);
-            }
-            Console.WriteLine("------------------------------------------");
-        }
-        public static void ToPrint(double[] inputArray)
-        {
-            foreach (double Element in inputArray)
-            {
-                Console.WriteLine(Element);
-            }
-            Console.WriteLine("------------------------------------------");
-        }
-        public static void ToPrint(char[] inputArray)
-        {
-            foreach (char Element in inputArray)
+            foreach (M Element in inputArray)
             {
                 Console.WriteLine(Element);
             }

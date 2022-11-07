@@ -9,9 +9,9 @@
             double[] doublearray = { 1.1, 2.2, 3.3, 4.4 };
             char[] chararray = { 'H', 'E', 'L', 'L', 'O' };
 
-            Array.ToPrint(intarray);
-            Array.ToPrint(doublearray);
-            Array.ToPrint(chararray);
+            Array.ToPrint<int>(intarray);
+            Array.ToPrint<double>(doublearray);
+            Array.ToPrint<char>(chararray);
 
         }
     }
